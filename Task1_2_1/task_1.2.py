@@ -3,25 +3,25 @@ pattern = r"\w+\.\d+"
 ides = re.compile(pattern)
 
 def log(filename):
-    file = open(filename, "r")
-    file_lines = file.readlines()
-    file.close()
     list = []
-
     count = 0
-
-    for line in file_lines:
+    with open(filename, 'r') as file: 
+        file_lines = file.readlines()
+    while count != 2:
         if 'D:TUpdaterController::SetUniqueParam(429): eid:' in line:
             list.append(line)
-
             count += 1
-
+    for line in reversed(file_lines):
+        if 'D:TUpdaterController::SetUniqueParam(429): eid:' in line:
+            list.append(line)
+        count += 1
+        if count == 2: break
     return list
 
 def two_eids(list):
 
-    prelast = list[-2]
-    last = list[-1]
+    prelast = list[1]
+    last = list[0]
 
     list_prelast = re.findall(pattern, prelast)
     list_last = re.findall(pattern, last)
