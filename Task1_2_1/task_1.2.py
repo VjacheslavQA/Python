@@ -35,6 +35,7 @@ def two_eids(list):
 
 if __name__ == "__main__":
     result = log("Log.txt")
+
     print("Предпоследний лог \n", result[-2])
     print("Последний лог \n", result[-1])
     print("Отличие в логах \n", two_eids(result))

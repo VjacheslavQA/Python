@@ -1,0 +1,48 @@
+2023-01-12 21:11:16,746 - ERROR - 20:41:54 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,747 - ERROR - 02:41:51 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,748 - CRITICAL - 10:53:11 E:FileSystem::ReadFile(84): CRITICAL ERROR Can't open file:  C:\ProgramData\Yandex\clids-yabrowser.xml
+
+2023-01-12 21:11:16,748 - ERROR - 10:53:11 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,748 - ERROR - 10:53:23 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,748 - CRITICAL - 11:50:44 E:FileSystem::ReadFile(84): CRITICAL ERROR Can't open file:  C:\ProgramData\Yandex\clids-yabrowser.xml
+
+2023-01-12 21:11:16,748 - ERROR - 11:50:44 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,748 - ERROR - 11:50:54 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,749 - ERROR - 08:46:59 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,749 - ERROR - 12:45:16 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,749 - CRITICAL - 10:25:26 E:FileSystem::ReadFile(84): CRITICAL ERROR Can't open file:  C:\ProgramData\Yandex\clids-yabrowser.xml
+
+2023-01-12 21:11:16,749 - ERROR - 10:25:26 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,749 - ERROR - 13:24:56 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,749 - ERROR - 17:00:07 E:TBitsTransferCompletion::TWorker::Error(220): Job error code: HR= 0x80190194.
+
+2023-01-12 21:11:16,749 - ERROR - Line 7572: 22:20:53 E:installUpdate(556): Process returned error code= 0x4
+
+2023-01-12 21:11:16,749 - ERROR - 08:55:05 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,749 - ERROR - 14:54:55 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,749 - ERROR - 10:00:42 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,749 - ERROR - 16:00:10 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,750 - ERROR - 09:00:38 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,750 - ERROR - 14:40:18 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
+2023-01-12 21:11:16,750 - ERROR - 14:40:34 E:JustUtil::SetEvent(32): LastError: 0x2. Error opening event  {611172A1-0EBC-49e8-A150-3052CE9F113A}-32-yabrowser
+
+2023-01-12 21:11:16,750 - CRITICAL - 08:52:29 E:FileSystem::ReadFile(84): CRITICAL ERROR Can't open file:  C:\ProgramData\Yandex\clids-yabrowser.xml
+
+2023-01-12 21:11:16,750 - ERROR - 08:52:29 E:FileSystem::ReadFile(84): ERROR Can't open file:  C:\Users\karpus\AppData\Roaming\Yandex\vendor-specific-urlparam-yabrowser.txt
+
