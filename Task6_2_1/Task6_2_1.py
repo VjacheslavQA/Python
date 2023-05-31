@@ -9,7 +9,7 @@ from Task5.task5_1_3_1_and_5_1_3_2 import number_of_people_using_language
 class Test1_2(unittest.TestCase):
 
     def test_get_requests_not_200(self):
-        self.assertNotEqual(get_requests_not_200(), "200")
+        self.assertNotEqual(get_requests_not_200().values(), "200")
 
     def test_post_request(self):
         self.form = {"comments": "Test post",
@@ -20,7 +20,7 @@ class Test1_2(unittest.TestCase):
                      "size": "large",
                      "topping": ["bacon", "mushroom"]
                      }
-
+        self.headers = {"User-Agent": "Python Learning Requests"}
         self.assertEqual(self.form, post_request()[0])
 
 
