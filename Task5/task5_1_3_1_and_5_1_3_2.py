@@ -1,7 +1,6 @@
 import requests
 
 
-
 def find_languages_code():
     url = 'https://restcountries.com/v3/all'
     headers = {'user-agent': 'Python Learning Requests'}
@@ -13,7 +12,6 @@ def find_languages_code():
             lang.update(country['languages'])
             lang_code = list(lang)
     return lang_code
-
 
 
 def number_of_people_using_language(lang_code):
@@ -28,8 +26,6 @@ def number_of_people_using_language(lang_code):
             population += country['population']
             result[language] = population
     return result
-
-
 
 
 if __name__ == '__main__':
