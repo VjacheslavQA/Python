@@ -22,6 +22,7 @@ class Test1_2(unittest.TestCase):
                      }
         self.headers = {"User-Agent": "Python Learning Requests"}
         self.assertEqual(self.form, post_request()[0])
+        self.assertIsInstance(self.form, dict)
 
 
 class Test3_4(unittest.TestCase):
