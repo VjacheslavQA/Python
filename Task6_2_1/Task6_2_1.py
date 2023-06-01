@@ -10,6 +10,7 @@ class Test1_2(unittest.TestCase):
 
     def test_get_requests_not_200(self):
         self.assertNotEqual(get_requests_not_200().values(), "200")
+        self.assertIsInstance(get_requests_not_200(), dict)
 
     def test_post_request(self):
         self.form = {"comments": "Test post",
@@ -22,7 +23,7 @@ class Test1_2(unittest.TestCase):
                      }
         self.headers = {"User-Agent": "Python Learning Requests"}
         self.assertEqual(self.form, post_request()[0])
-        self.assertIsInstance(self.form, dict)
+
 
 
 class Test3_4(unittest.TestCase):
